@@ -3,7 +3,22 @@
 
 #include "Player/AuraPlayerState.h"
 
+#include "AbilitySystem/AuraAbilitySystemComponent.h"
+#include "AbilitySystem/AuraAttributeSet.h"
+#include "AuraPlayerState.h"
+
+
 AAuraPlayerState::AAuraPlayerState()
 {
+    AbilitySystemComponent = CreateDefaultSubobject<UAuraAbilitySystemComponent>("AbilitySystemComponent");
+    AbilitySystemComponent->SetIsReplicated(true);  // Server will replicate to clients
+
+    AttributeSet = CreateDefaultSubobject<UAuraAttributeSet>("AttributeSet");
+
     NetUpdateFrequency = 100; // how often the server will update clients
+}
+
+UAbilitySystemComponent *AAuraPlayerState::GetAbilitySystemComponent() const
+{
+    return AbilitySystemComponent;
 }

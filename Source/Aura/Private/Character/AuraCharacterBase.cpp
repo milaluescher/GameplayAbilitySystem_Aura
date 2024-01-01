@@ -2,6 +2,7 @@
 
 
 #include "Character/AuraCharacterBase.h"
+#include "AuraCharacterBase.h"
 AAuroCharacterBase::AAuroCharacterBase()
 {
 	PrimaryActorTick.bCanEverTick = false;
@@ -10,6 +11,11 @@ AAuroCharacterBase::AAuroCharacterBase()
 	Weapon->SetupAttachment(GetMesh(), FName("WeaponHandSocket"));
 	Weapon->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 
+}
+
+UAbilitySystemComponent* AAuroCharacterBase::GetAbilitySystemComponent() const
+{
+    return AbilitySystemComponent;
 }
 
 void AAuroCharacterBase::BeginPlay()
