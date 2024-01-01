@@ -2,16 +2,18 @@
 
 #pragma once
 
+#include "Character/AuraCharacterBase.h"
 #include "CoreMinimal.h"
-#include "Character/AuroCharacterBase.h"
-#include "AuroCharacteR.generated.h"
+#include "AuraCharacter.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class AURA_API AAuroCharacteR : public AAuroCharacterBase
+class AURA_API AAuraCharacter : public AAuroCharacterBase
 {
 	GENERATED_BODY()
+public:
+	AAuraCharacter();
 	
 };
