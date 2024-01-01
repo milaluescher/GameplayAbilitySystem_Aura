@@ -1135,3 +1135,4 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.01-10.45.58:746][989]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2024.01.01-10.46.09:631][167]LogSlate: Window 'Editor Preferences' being destroyed
 [2024.01.01-10.46.31:544][209]LogDerivedDataCache: C:/Users/MilaLuescher/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:02:14.210 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 70662 files in 69499 folders with total size 4796 MiB.
+[2024.01.01-11.46.33:467][110]LogDerivedDataCache: C:/Users/MilaLuescher/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:02:14.996 and deleted 58 files with total size 0 MiB and 51 empty folders. Scanned 70662 files in 69499 folders with total size 4796 MiB.
