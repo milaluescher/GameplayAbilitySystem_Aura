@@ -2,7 +2,7 @@
 
 
 #include "Character/AuraCharacterBase.h"
-#include "AuraCharacterBase.h"
+
 AAuroCharacterBase::AAuroCharacterBase()
 {
 	PrimaryActorTick.bCanEverTick = false;
