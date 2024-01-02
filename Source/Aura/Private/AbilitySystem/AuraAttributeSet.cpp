@@ -2,12 +2,11 @@
 
 
 #include "AbilitySystem/AuraAttributeSet.h"
-#include "AbilitySystemComponent.h"
 #include "Net/UnrealNetwork.h"
-
 
 UAuraAttributeSet::UAuraAttributeSet()
 {
+	float TestFloat = 100.f;
 }
 
 void UAuraAttributeSet::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const

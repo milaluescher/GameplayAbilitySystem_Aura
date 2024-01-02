@@ -4,7 +4,6 @@
 
 #include "Character/AuraCharacterBase.h"
 #include "CoreMinimal.h"
-#include "GameFramework/Pawn.h"
 #include "AuraCharacter.generated.h"
 
 /**
